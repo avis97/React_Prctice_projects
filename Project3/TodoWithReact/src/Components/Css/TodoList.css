@@ -1,0 +1,24 @@
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+.todo-item-container{
+    display: flex;
+    margin-left: 20px;
+}
+img{
+    height: 25px;
+}
+.cross-img{
+    height: 12px;
+}
+.todo-item-text{
+    padding-left: 14px;
+    color: #404040;
+    font-size: 22px;
+}
+.line-through{
+    text-decoration: line-through solid black 3px;
+}
